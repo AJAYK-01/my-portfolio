@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography,  Card, CardMedia, Grid, IconButton, Box, Avatar, makeStyles } from '@material-ui/core';
+import { Typography, Grid, IconButton, Box, makeStyles } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 const useStyles = makeStyles((theme) => ({

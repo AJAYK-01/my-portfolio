@@ -6,6 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { Grid, Card, Avatar, IconButton, SvgIcon, Box } from '@material-ui/core';
 import profilepic from './../assets/pic.jpg';
+import resume from './../assets/resume.pdf'
 import { ReactComponent as github } from './../assets/github.svg';
 import { ReactComponent as linkedin } from './../assets/linkedin.svg';
 import { ReactComponent as twitter } from './../assets/twitter.svg';
@@ -61,6 +62,9 @@ export default function SideBar(props) {
         </ListItem>
         <ListItem button divider >
           <ListItemText primary={'Contact Me'} align="center" onClick={ function() {scroll('contact')} } />
+        </ListItem>
+        <ListItem button divider >
+          <ListItemText primary={'Download Resume'} align="center" onClick={ () => window.open(resume, '_blank') } />
         </ListItem>
 
         <Grid container style={{ marginTop: '30px' }} spacing={1} justify="center" >
