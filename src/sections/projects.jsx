@@ -15,7 +15,7 @@ export default function Projects(props) {
     return(
         <div id="projects" style={{ marginTop: '50px' }} >
             <Typography variant="h2" align='left' style={{ flex:1, textAlign: 'center' }} >My Work</Typography>
-            <Grid container justify='center' spacing={2} style={{ marginTop: '1px' }} >
+            <Grid container justify='center' spacing={2} style={{ marginTop: '6px' }} >
                 <ProjectCard 
                     title={"Lootoh (Freelance)"}
                     avatarSrc={'https://cdn.dribbble.com/users/1622791/screenshots/11174104/flutter_intro.png'}
@@ -49,7 +49,7 @@ export default function Projects(props) {
                     content={(<div>An alternative frontend for Youtube. {<br />}
                         Allows you to search, stream and download youtube videos seamlessly. {<br />}
                         Built using React, Node, Invidious API and youtube-dl .</div>)}
-                    link={'https://github.com/AJAYK-01/Go-Corona-Meme'}
+                    link={'https://github.com/AJAYK-01/Reactube'}
                     
                 />
                 <ProjectCard 
