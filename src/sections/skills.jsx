@@ -15,10 +15,11 @@ export default function Skills(props) {
                         <CardHeader title={"Frontend development"} ></CardHeader>
                         <CardContent>
                             <Typography >
-                                Have done quite a few Android app projects using Flutter cross platform framework. <br/>
-                                A newbie on web dev, currently learning Javascript and React
-                                 (this webpage was made using React). <br/>
-                                Currently working on the mobile app for Ceekyoo search engine. 
+                                Have done a few freelance projects with Flutter 
+                                and some personal ones as well. <br/>
+                                Also have done some React Js projects which includes this webpage.
+                                <br/>
+                                Worked on the mobile app for Ceekyoo search engine project. 
                             </Typography>
                         </CardContent>
                     </Card>
@@ -28,11 +29,10 @@ export default function Skills(props) {
                         <CardHeader title={"Backend development"} ></CardHeader>
                         <CardContent>
                             <Typography >
-                                Worked with Django and Flask. <br/>
+                                Worked with Node and Flask. <br/>
                                 Designed backend logic for a Dark Web Crawler
                                 for Kerala Police Cyberdome's hackathon . <br/>
                                 Good experience in Firebase Database management. <br/>
-                                Newbie learner to PostgreSQL. 
                             </Typography>
                         </CardContent>
                     </Card>
@@ -45,7 +45,7 @@ export default function Skills(props) {
                             <Typography >
                                 - Flutter (Mobile app). <br/>
                                 - ReactJs (Web). <br/>
-                                - Django, Flask (Backend) <br/>
+                                - Node-Express, Flask (Backend) <br/>
                                 - Python. <br/> 
                                 - C++. <br/> 
                             </Typography>

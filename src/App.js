@@ -1,5 +1,5 @@
 import React from 'react';
-import Template from './components/template';
+import Template from './sections/template';
 import background from './assets/background.jpg';
 
 function App() {

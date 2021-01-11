@@ -21,14 +21,15 @@ export default function About(props) {
                         <Typography style={{ marginBottom: '18px', fontSize: '18px' }} >
                             I'm a 2019-2023 batch engineering student pursuing Computer Science at
                             College of Engineering, TVM.
-                            My primary passion and love in tech is for mobile app dev,
+                            I am also a freelance Flutter developer and 
+                            my primary passion and love in tech is for mobile app dev,
                             backend design and just building cool projects!
                         </Typography>
                         <Typography style={{ marginBottom: '18px', fontSize: '18px' }} >
                             Currently I am a Frontend developer, with knowledge and experience in
                             the cross platform mobile app framework Flutter, and web framework React.
                             My aim is to be a full stack developer, and I currently have some experience in backend 
-                            development using python frameworks like django and flask as well.
+                            development using frameworks like node-express and flask as well.
                         </Typography>
                         <Typography style={{ marginBottom: '18px', fontSize: '18px' }} >
                             I love open source and therefore have participated in many open source
